@@ -1,0 +1,267 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+
+/* Body section */
+
+body
+{
+    background-color:lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Conatiner Section */
+
+
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1100px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    
+    box-shadow: 0 35px 55px rgba(0,0,0,0,1);
+}
+
+/*Container Top Section */
+
+.container .top
+{
+  
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 25%;
+    min-height: 250px;
+}
+
+.top_left
+{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    width: 40%; 
+    background-color: black;
+    height: 250px;
+    padding: 10px;
+
+}
+
+.top.top_left img
+{
+   position: absolute;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+
+.top_right
+{
+    display: flex;
+    width: 60%; 
+    background-color: white;
+    height: 250px;
+    padding: 15px;
+}
+
+/* Conatiner Center Section */
+
+.container .center
+{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    min-height: 100px;
+}
+
+.center_left 
+{
+    display: flex;
+     width: 75%;
+     background-color: yellow;
+     height: 100px;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+}
+
+.center_form
+{
+    display: flex;
+    width: 40%;
+     background-color: white;
+     height: 100px;
+     flex-direction: column;
+      gap: 4px;
+      padding-left: 20px;
+}
+
+.display
+{
+    display: flex;
+     gap: 10px;
+}
+
+
+ .icon
+{
+    background-color: black;
+     color: gold;
+     padding: 2px;
+}
+
+.form_end
+{
+    display: flex;
+    width: 5%; 
+    background-color: yellow;
+    height: 100px;
+    
+}
+
+
+/* Conatiner Bottom Section */
+
+
+.container .bottom
+{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 65%;
+    min-height: 750px;
+}
+
+
+/*Bottom left Section */
+
+.bottom_left
+{
+    
+    width: 40%;
+     background-color: black;
+     height: 750px;
+     padding: 20px;
+}
+
+.title
+{
+    border-bottom:1px solid hsl(0, 0%, 100%);
+    border-right: 30%;
+    margin-top: 20px; 
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 18px;
+}
+
+.content
+{
+    display: flex;
+    gap: 10px;
+}
+
+.title ul
+{
+position: relative;
+}
+
+.technical ul li
+{
+ color: #fff;
+ display: flex;
+ margin-left: 10px;
+ padding: 5px;
+ cursor: pointer;
+}
+
+.skills ul li
+{
+ color: #fff;
+ display: flex;
+ margin-left: 10px;
+ padding: 5px;
+ cursor: pointer;
+}
+
+.industry ul li
+{
+
+ color: #fff;
+ display: flex;
+ margin-left: 10px;
+ padding: 5px;
+ cursor: pointer;
+
+}
+
+/*Bottom Right Section */
+
+.bottom_right
+{
+    display: flex;
+    width: 60%; 
+    background-color: white;
+    padding:35px 20px 20px 20px;
+    overflow: hidden;
+    height: 750px;
+}
+
+
+.bottom_right h4
+{
+    font-size: 1.5rem;
+    color: black;
+}
+
+.bottom_right_item li h2
+{
+    color: black
+
+}
+
+
+.bottom_content .bottom_title
+{
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.comapny h4
+{
+    color: gray;
+}
+
+.finance h4
+{
+    margin-bottom: 5px;
+}
+
+.inside
+{
+    margin: 15px;
+}
+
+
